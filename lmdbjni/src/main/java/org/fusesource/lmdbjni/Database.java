@@ -23,6 +23,8 @@ import java.io.Closeable;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.fusesource.hawtjni.runtime.Callback;
+
 import static org.fusesource.lmdbjni.JNI.*;
 import static org.fusesource.lmdbjni.Util.checkArgNotNull;
 import static org.fusesource.lmdbjni.Util.checkErrorCode;

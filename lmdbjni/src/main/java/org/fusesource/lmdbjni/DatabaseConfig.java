@@ -102,12 +102,12 @@ public class DatabaseConfig implements Cloneable {
 	}
 	
 	public Comparator<byte[]> getComparator() {
-		return null;
+		return this.comparator;
 	}
 	
 	public void setComparator(Comparator<byte[]> comparator) {
 		this.comparator = comparator;
-		throw new IllegalStateException("Setting of custom comparator is presently not supported");
+//		throw new IllegalStateException("Setting of custom comparator is presently not supported");
 	}
 	
     /**

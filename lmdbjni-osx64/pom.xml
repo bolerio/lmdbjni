@@ -82,7 +82,7 @@
             <type>zip</type>
           </nativeSrcDependency>
           <configureArgs>
-            <arg>--with-lmdb=${env.LMDB_HOME}</arg>
+            <arg>--with-lmdb=${basedir}/../lmdbjni/src/main/native-package/src</arg>
           </configureArgs>
         </configuration>
       </plugin>

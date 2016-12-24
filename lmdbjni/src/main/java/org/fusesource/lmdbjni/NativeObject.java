@@ -37,7 +37,7 @@ class NativeObject {
         }
     }
 
-    long pointer() {
+    public long pointer() {
         checkAllocated();
         return self;
     }
